@@ -1,0 +1,20 @@
+.info-card_green {
+    display: flex;
+    width: 940px;
+    padding: 24px;
+    align-items: flex-start;
+    gap: 41px;
+    border-radius: 8px;
+    border: 1px solid $color-tiffany;
+    background: $color-light-tiffany;
+
+    .container_info-text {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .container_cross {
+        line-height: 1.4em;
+    }
+}

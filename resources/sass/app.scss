@@ -1,0 +1,19 @@
+// Fonts
+
+@import url("https://fonts.bunny.net/css?family=Roboto");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+// @import 'bootstrap/scss/bootstrap';
+
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+@import "reset";
+@import "general";
+@import "blocks/header";
+@import "blocks/main/main";
+@import "blocks/main/left-content";
+@import "blocks/main/right-content";
+@import "blocks/footer"
