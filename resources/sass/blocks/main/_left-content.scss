@@ -1,1 +1,107 @@
-@import "../../components/info-card"
+
+
+
+.left-subcontainer {
+    @import "../../components/info-card";
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        padding: 24px;
+        gap: 24px;
+        background: $color-white;
+        width: 940px;
+        border-radius: 8px;
+
+        .h1 {
+            padding-bottom: 16px;
+        }
+
+        .hero-text {
+            width: 828px;
+        }
+
+        .card-block__wrapper {
+            .card-block {
+                display: grid;
+                grid-template-columns: 18.5% 18.5% 18.5% 18.5% 18.5%;
+                column-gap: 16px;
+                row-gap: 16px;
+                .card {
+                    flex-basis: 170px;
+                    display: flex;
+                    padding: 12px;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 8px;
+                    align-self: stretch;
+                    border-radius: 8px;
+                    border: 1px solid #CDEA1A;
+                    
+                   
+            
+                    &__image {
+                        background: url("http://localhost:5173/resources/images/book.png")  lightgray 50%  / 100% 100%;
+                        width: 146px;
+                        height: 220px;
+                        position: relative;
+                    
+                        
+                    }
+            
+                    .card-text {
+                        text-align: center;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 16px; 
+                        letter-spacing: -0.1px;
+                    }
+            
+                    .card-text_grey {
+                        color: $color-text-grey; 
+                    }
+            
+                    .card-text_grey span {
+                        color: $color-tiffany;
+                        margin-right: 4px;
+                        
+                    }
+                    
+                }
+            }
+
+            .button-group {
+                display: flex;
+                gap: 16px;
+                padding-top: 8px;
+               .button_green-next {
+                    display: flex;
+                    gap: 8px;
+                    width: 200px;
+                    
+               }
+
+
+               .button_transparent-counter {
+                    display: flex;
+                    gap: 8px;
+                    width: 100px;
+               }
+
+            }
+        }
+       
+    }
+
+
+}
+
+
+
+

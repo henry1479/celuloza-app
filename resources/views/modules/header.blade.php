@@ -69,7 +69,7 @@
                     </svg>
                 </a>
                 <a class="button_enter-transparent">Войти</a>
-                <a class="button_reg-green">Регистрация</a>
+                <a class="button_green">Регистрация</a>
             </div>
             @include('components.slide-menu')
         </div>
